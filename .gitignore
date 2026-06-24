@@ -1,0 +1,16 @@
+# KiCad transient / backup files
+*.lck
+~*.kicad_sch.lck
+*-bak
+*.kicad_sch-bak
+Polarimeter-backups/
+fp-info-cache
+*.bck
+*.000
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# redundant with unpacked Gerber folder
+Gerbers for AMO.zip
