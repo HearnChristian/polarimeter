@@ -544,7 +544,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
+		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
 			)
@@ -555,15 +555,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at 2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -571,7 +571,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 1.016 -0.254 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -588,7 +588,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Resistor, US symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -615,12 +615,61 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -628,7 +677,7 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2677,7 +2726,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 74.93 93.98 0)
 		(mirror x)
 		(unit 1)
@@ -2702,7 +2751,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.152 93.98 90)
 			(effects
 				(font
@@ -2720,7 +2769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
 			(at 74.93 93.98 0)
 			(effects
 				(font
@@ -2770,7 +2819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "05-08-1664_ADI"
+		(property "Footprint" "LT8609EMSE-TRPBF:05-08-1664_ADI"
 			(at 41.91 55.88 0)
 			(effects
 				(font
@@ -2866,7 +2915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.6 65.0748 0)
 			(effects
 				(font
@@ -3002,7 +3051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 210.5152 80.01 0)
 			(effects
 				(font
@@ -3070,7 +3119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UJ_6_ADI"
+		(property "Footprint" "ADR130AUJZ-REEL7:UJ_6_ADI"
 			(at 208.28 67.31 0)
 			(effects
 				(font
@@ -3154,7 +3203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
 			(at 184.4548 29.21 0)
 			(effects
 				(font
@@ -3225,7 +3274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 143.8148 29.21 0)
 			(effects
 				(font
@@ -3268,7 +3317,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 74.93 101.6 0)
 		(mirror x)
 		(unit 1)
@@ -3285,7 +3334,7 @@
 				)
 			)
 		)
-		(property "Value" "187 k"
+		(property "Value" "187k"
 			(at 78.74 101.6 90)
 			(effects
 				(font
@@ -3293,7 +3342,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.152 101.6 90)
 			(effects
 				(font
@@ -3311,7 +3360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
 			(at 74.93 101.6 0)
 			(effects
 				(font
@@ -3712,7 +3761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 59.3852 90.17 0)
 			(effects
 				(font
@@ -3780,7 +3829,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XxL4020"
 			(at 50.8 90.17 0)
 			(effects
 				(font
@@ -3916,7 +3965,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 150.8252 59.69 0)
 			(effects
 				(font
@@ -3986,7 +4035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 265.1252 80.01 0)
 			(effects
 				(font
@@ -4047,7 +4096,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "v"
 			(at 173.99 64.7699 0)
 			(effects
 				(font
@@ -4056,7 +4105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 171.1452 67.31 0)
 			(effects
 				(font
@@ -4127,7 +4176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 157.7848 29.21 0)
 			(effects
 				(font
@@ -4198,7 +4247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 128.5748 29.21 0)
 			(effects
 				(font
@@ -4268,7 +4317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN_37AH"
+		(property "Footprint" "PJ-037AH:CONN_37AH"
 			(at 27.94 20.32 0)
 			(effects
 				(font
@@ -4379,7 +4428,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 33.02 66.04 90)
 		(mirror x)
 		(unit 1)
@@ -4404,7 +4453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 33.02 64.262 90)
 			(effects
 				(font
@@ -4422,7 +4471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
 			(at 33.02 66.04 0)
 			(effects
 				(font
@@ -4447,7 +4496,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 55.88 93.98 0)
 		(mirror x)
 		(unit 1)
@@ -4472,7 +4521,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.102 93.98 90)
 			(effects
 				(font
@@ -4490,7 +4539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
 			(at 55.88 93.98 0)
 			(effects
 				(font
@@ -4539,7 +4588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 36.83 59.9948 0)
 			(effects
 				(font
@@ -4610,7 +4659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 170.4848 29.21 0)
 			(effects
 				(font
@@ -4680,7 +4729,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 92.71 61.9252 0)
 			(effects
 				(font
@@ -4882,7 +4931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 68.2752 97.79 0)
 			(effects
 				(font
@@ -5124,7 +5173,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 173.99 72.39 90)
 		(mirror x)
 		(unit 1)
@@ -5149,7 +5198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.99 70.612 90)
 			(effects
 				(font
@@ -5167,7 +5216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, US symbol"
 			(at 173.99 72.39 0)
 			(effects
 				(font
@@ -5417,7 +5466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TS01CQE_CNK"
+		(property "Footprint" "TS01CQE:TS01CQE_CNK"
 			(at 96.52 22.86 0)
 			(effects
 				(font

@@ -5,6 +5,10 @@ photocurrent from a pair of photodiodes through a low-noise transimpedance
 signal chain. Designed in KiCad; this repository contains the full schematic,
 layout, fabrication outputs, and bill of materials.
 
+![Board — top](docs/board-top.png)
+
+📄 **[Full schematic (PDF)](docs/Polarimeter-schematic.pdf)** · 🖼️ [board bottom](docs/board-bottom.png)
+
 ## What it does
 
 Light passing through a polarizing optical stage lands on two photodiodes
@@ -41,10 +45,12 @@ and ratiometric.
 
 ```
 Polarimeter.kicad_pro      KiCad project
-Polarimeter.kicad_sch      Schematic
+Polarimeter.kicad_sch      Root schematic
+Power.kicad_sch            Power-supply sub-sheet (hierarchical)
 Polarimeter.kicad_pcb      PCB layout (4-layer)
 Polarimeter.csv            Bill of materials
 Gerbers for AMO/           Fabrication outputs (Gerber + Excellon drill)
+docs/                      Rendered schematic PDF + 3D board images
 ```
 
 ## Bill of materials
@@ -60,4 +66,4 @@ view or edit the schematic and layout.
 
 ---
 
-*Author: Christian Hearn*
+*Designed by Christian Hearn, with Malik Shaaban.*
